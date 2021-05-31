@@ -11,21 +11,74 @@
 </head>
 
 <body>
-    <div class="row1">
+    <div class="item">
         <div class="product">
-            <img id="display-img" src="images/img1.jpg">
-            <div class="fas fa-chevron-circle-left left" onclick="nextImage(-1)"></div>
-            <div class="fas fa-chevron-circle-right right" onclick="nextImage(+1)"></div>
+            <div>
+                <img id="display-img" src="images/img1.jpg">
+                <div class="fas fa-chevron-circle-left left" onclick="nextImage(-1)"></div>
+                <div class="fas fa-chevron-circle-right right" onclick="nextImage(+1)"></div>
+            </div>
 
             <div class="img-group">
                 <img class="thumb" src="images/img1.jpg" onmouseover="changeimg(this)">
                 <img class="thumb" src="images/img2.jpg" onmouseover="changeimg(this)">
                 <img class="thumb" src="images/img3.jpg" onmouseover="changeimg(this)">
                 <img class="thumb" src="images/img4.jpg" onmouseover="changeimg(this)">
-                <img class="thumb" src="images/img5.jpg" onmouseover="changeimg(this)">
+                <img class="thumb" src="images/img1.jpg" onmouseover="changeimg(this)">
             </div>
         </div>
-        
+        <div class="description">
+            <h1 class="product-title">Upholstered Sofa</h1>
+
+            <h3>
+                Kyara Upholstered Standard Bed
+                <br>
+                by Zipcode Design
+            </h3>
+
+            <p>Anchor your living room in sophisticated style and impeccable comfort with a single addition. Perfectly
+                balancing wood accents with fabric upholstery.</p>
+
+            <div>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+            </div>
+
+            <p>
+                <span id="rating">(5.0)</span> review based on 250
+            </p>
+
+            <a href="">Submit Review</a>
+
+            <p class="price">$567</p>
+
+            <div class="dispatch">
+                <p><span class="far fa-clock"></span> Dispatched in 7 working days</p>
+
+                <button type="button" id="cart" class="btn">ADD TO CART</button>
+                <button type="button" id="wishlist" class="btn">ADD TO WISHLIST</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="general">
+        <div class="service">
+            <h3><span class="fas fa-key service-icon"></span>Secure payment</h3>
+            <p class="service-text">Don't worry your money is in secure places</p>
+        </div>
+
+        <div class="service">
+            <h3><span class="fas fa-truck service-icon"></span>Fast & free delivery</h3>
+            <p class="service-text">Home delivery $15. For free delivery order over $250</p>
+        </div>
+
+        <div class="service">
+            <h3><span class="fas fa-undo-alt service-icon"></span>Return policy</h3>
+            <p class="service-text">No hassle return policy</p>
+        </div>
     </div>
 
     <script src="https://kit.fontawesome.com/f7de978a7e.js" crossorigin="anonymous"></script>
